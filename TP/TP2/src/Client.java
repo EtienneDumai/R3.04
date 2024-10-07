@@ -28,7 +28,7 @@ public class Client {
         return "Le client a pour nom : " + this.nom + " et pour numero de telephone : " + this.telephone;
     }
     public void delierLaTable(){
-        if(this.getMaTable != null){
+        if(this.getMaTable() != null){
             this.maTable.setMonCLient(null);
 
         this.setMaTable(null);
