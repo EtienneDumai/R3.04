@@ -1,12 +1,12 @@
 public class Table {
-    public int numeroTable;
-    public Table(int leNumeroDeTable) {
+    public String numeroTable;
+    public Table(String leNumeroDeTable) {
         this.numeroTable = leNumeroDeTable;
     }
-    public int getNumeroTable() {
+    public String getNumeroTable() {
         return numeroTable;
     }
-    public void setNumeroTable(int numeroTable) {
+    public void setNumeroTable(String numeroTable) {
         this.numeroTable = numeroTable;
     }
     public String toString() {

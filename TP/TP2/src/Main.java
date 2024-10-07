@@ -11,5 +11,8 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+        Client client1 = new Client("01.01.01.01.01", "Martin");
+        Table table1 = new Table("T01");
+        System.out.println(client1.toString());
     }
 }

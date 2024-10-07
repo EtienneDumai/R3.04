@@ -1,11 +1,11 @@
 public class Client {
-    public int telephone;
+    public String telephone;
     public String nom;
-    public Client(int telephone, String nom) {
+    public Client(String telephone, String nom) {
         this.telephone = telephone;
         this.nom = nom;
     }
-    public int getTelephone() {
+    public String getTelephone() {
         return this.telephone;
     }
     public String getNom() {
@@ -14,7 +14,7 @@ public class Client {
     public void setNom(String nom) {
         this.nom = nom;
     }
-    public void setTelephone(int telephone) {
+    public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
     public String toString() {
