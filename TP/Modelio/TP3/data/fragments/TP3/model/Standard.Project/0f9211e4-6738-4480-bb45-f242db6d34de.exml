@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TP3" version="4">
+  <OBJECT>
+    <ID name="TP3" mc="Standard.Project" uid="0f9211e4-6738-4480-bb45-f242db6d34de"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[TP3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="tp3" mc="Standard.Package" uid="b67fcbd0-56b4-4f70-87ef-0c4c662d66f3"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="TP3" mc="Infrastructure.DiagramSet" uid="9be4ace5-d0a1-4c9b-9a57-7fadb6732205"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
