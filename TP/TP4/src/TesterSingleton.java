@@ -10,6 +10,10 @@ public class TesterSingleton {
         leChef = SingletonChefCuisine.getInstance();
         //Question E :
         System.out.println("Nom du chef : " + leChef.getNom());
-
+        //Question F : (il faut supprimer le code des questions d'avant pour que cela marche)
+        SingletonChefCuisine leCuisinier2, leChef2;
+        leCuisinier2 = SingletonChefCuisine.getInstance("Leroy", "Jean");
+        leChef2 = SingletonChefCuisine.getInstance();
+        System.out.println("Nom du chef 2 : " + leChef2.getNom());
     }
 }
