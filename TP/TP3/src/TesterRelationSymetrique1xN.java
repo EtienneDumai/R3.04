@@ -12,9 +12,7 @@ public class TesterRelationSymetrique1xN {
         PlatCuisine plat2 = new PlatCuisine("fromageSeul");
         plat1.ajouterIngredient(ingredient1);
         plat2.ajouterIngredient(ingredient3);
-        plat1.lierIngredient(ingredient1);
         plat1.lierIngredient(ingredient2);
-        plat2.lierIngredient(ingredient3);
         System.out.println("AFFICHAGE DES PLATS : \n");
         plat1.toString1();
         plat2.toString2();

@@ -44,10 +44,8 @@ public class PlatCuisine {
     }
     public boolean lierIngredient(Ingredient unIngredient){
         boolean retour = false;
-        if(this.mesIngredient.add(unIngredient)){
-            unIngredient.setMonPlat(this);
-            retour = true;
-        }
+        unIngredient.setMonPlat(this);
+        retour = true;
         return retour;
     }
     public boolean delierIngredient(Ingredient unIngredient){
