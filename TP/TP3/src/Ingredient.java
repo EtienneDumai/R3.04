@@ -24,14 +24,16 @@ public class Ingredient {
         System.out.println("Libelle : " + libelle);
     }
     public void lierPlatCuisine(PlatCuisine Plat) {
-        this.monPlat = null;
-        this.monPlat = Plat;
-        Plat.lierIngredient(this);
+        this.delierPlatCuisine(); // Se délier du plat avec lequel il est ventuellement lié,
+        this.setMonPlat(monPlat); // pointer vers le nouveau plat, et
+        monPlat.ajouterIngredient (this);
     }
-    public void delierPlatCuisine(PlatCuisine Plat) {
-        this.monPlat = null;
-        Plat.delierIngredient(this);
-
-
+    public void delierPlatCuisine() {
+        if (this.getMonPlat() != null) { // Si l’ingrédient est lié à un plat,
+// le retirer de la liste de ses ingrédients, et
+            this.getMonPlat().delierIngredient(this);
+// ne plus pointer vers le plat.
+            this.setMonPlat(null);
+        }
     }
 }

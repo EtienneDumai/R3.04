@@ -21,40 +21,41 @@ public class PlatCuisine {
         this.mesIngredient = mesIngredient;
     }
     public boolean existeIngredient(Ingredient unIngredient) {
-        boolean retour = false;
-        if (!getMesIngredient().isEmpty()){
-            for (Ingredient ingredient : getMesIngredient()) {
-                if(ingredient == unIngredient){
-                    retour = true;
-                }
-            }
-        }
-        return retour;
+        return (getMesIngredient().contains(unIngredient));
+
     }
 
     public boolean ajouterIngredient(Ingredient unIngredient){
-        this.mesIngredient = new ArrayList<>();
-        this.mesIngredient.add(unIngredient);
-        return true;
+        boolean ajouter;
+        if (ajouter = (! existeIngredient(unIngredient)))
+            mesIngredient.add(unIngredient);
+        return ajouter;
     }
     public boolean retirerIngredient(Ingredient unIngredient){
-        boolean retour = false;
-        retour = this.mesIngredient.remove(unIngredient);
-        return retour;
+        boolean retirer;
+        if(retirer = existeIngredient (unIngredient))
+            mesIngredient.remove(unIngredient);
+        return retirer;
+
     }
     public boolean lierIngredient(Ingredient unIngredient){
-        boolean retour = false;
-        unIngredient.setMonPlat(this);
-        retour = true;
-        return retour;
+        boolean lier; // Résultat à retourner
+        if(! existeIngredient (unIngredient)) { // S'il n'est pas présent dans la liste
+            ajouterIngredient(unIngredient); // l'ajouter, puis
+            unIngredient.delierPlatCuisine(); // supprimer son lien éventuel
+            unIngredient.setMonPlat(this); // et le faire pointer vers moi
+            lier = true;
+        }
+        else lier = false;
+        return lier;
+
     }
     public boolean delierIngredient(Ingredient unIngredient){
-        boolean retour = false;
-        if(this.mesIngredient.remove(unIngredient)){
-            unIngredient.setMonPlat(null);
-            retour = true;
-        }
-        return retour;
+        boolean delier;
+        if (delier = retirerIngredient (unIngredient)) // Mémorise le résultat de la suppression
+            unIngredient.setMonPlat(null); // l'ingrédient ne doit plus pointer vers moi
+        return delier;
+
     }
     public void tostring(){
         System.out.println("Libelle: " + libelle);
