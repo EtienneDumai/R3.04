@@ -1,12 +1,9 @@
 abstract public class PieceComposante {
     protected String _libelle;
     protected int _prix;
-    public int get_prix() {
-        return _prix;
-    }
-    public void set_prix(int prix) {
-        _prix = prix;
-    }
+    abstract public int get_prix() ;
+
+    abstract public void set_prix(int prix) ;
     public String get_libelle() {
         return _libelle;
     }
