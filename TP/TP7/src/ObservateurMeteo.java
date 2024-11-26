@@ -54,4 +54,9 @@ public class ObservateurMeteo {
                 ", pression=" + pression +
                 '}';
     }
+    public void actualiser(ObservableMeteo observable) {
+        this.dateHeure = observable.getDateHeure();
+        this.temperature = observable.getTemperature();
+        this.pression = observable.getPression();
+    }
 }
