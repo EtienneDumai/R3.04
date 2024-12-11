@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Mediateur" version="4">
+  <OBJECT>
+    <ID name="Mediateur" mc="Standard.Project" uid="fc2a43e7-1903-49fd-b422-66488b270f9a"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Mediateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="mediateur" mc="Standard.Package" uid="27e24834-c5a5-415a-9b65-dde575b9eefd"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Mediateur" mc="Infrastructure.DiagramSet" uid="63d8318d-5b29-4f20-a4b1-c0a490df0c8f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

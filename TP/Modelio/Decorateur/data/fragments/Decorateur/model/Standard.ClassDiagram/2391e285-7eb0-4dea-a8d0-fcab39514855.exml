@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagTP" version="4">
+  <OBJECT>
+    <ID name="DiagTP" mc="Standard.ClassDiagram" uid="2391e285-7eb0-4dea-a8d0-fcab39514855"/>
+    <PID name="decorateur" mc="Standard.Package" uid="e3746228-1bfc-4398-87bd-575cef0eab36"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmm1v4jgQgP9KlO8EEqAFle2qhRVXLdtWsLfS3ZdqkgzUWydGttkWfv3ZgXDlpWka0lBV4Qt4gsdvz0xmbHe+PgXU+INcEBZ+MW2rZhpfzzs37m/0pEF8JTINOZ/iF5PxiRUwHylh1iyglpAgyYNPYMIhsNAnknELKQYYSrF86sVP+8EoKveWZdMI4Dfjd+t2a+Z555azKXI5N0IIVHMU5mwmeyBBPfsFdIarfoQzSs3qeacaV9ipOpJziubGKJx9o4h7J/T/heUxjtaybor+dUF44KMfN/btSQ5xnLKVa6ViVdPAJ9lzr1Qfo5/6R5e5QOXWGKvL0SSNmyMFib7qxtaU/dAi44+W6NmB0AfuW10KQqxWxHDqbRudVrNyim6t0vARKtDya5WxB2693bQbrWYzedaVNvk9ZI/hAFykWz0YSU7CiXmum/t526lGzxLHwihehV0WTJkgUi3CCwpTqOreE+pz1BoGRMgNLurZ6PYoLBaK6mgKD6J5qHoC4USDsFqf+mnzzG63z5zGyVmr9mbSG+9OusZ8aVOFEGq4nu+gPVZAtu1xpXFSg4oLoEhtNBvoN/yG+uSA5i1ZLODjkNnMgcxbTgLg82tVO2dIa2e1rICepAVUqXqaH0zpNholpRv6fgAJNR8H0nqajVatWEzBw3tUa8cVt9ex5K9IUnyk0CoWz5MSzyQ8lxSkUCju2eMd8XYUXTLVEoTraRkDFZg80EjVA84fGfdz0CbBe7gTEjmyV7RJPkvTNbpn/t+uClwhOXgywwjXjD4zm3bm15UQZEwi2++uC0MUZAEuxT5ns2nxTsCulV7gA3mBA19OdsYcFqRq351JnGgKFaAXseBYWKZOY/PB0t6O7kouN/Rt8pCF0urqK9m52hnTVK0TdP9jgG9iwbEATp2dlgAXEv2jvGf+e9ObMZUloQqaQhV/qGDGkzMFRT+4WslGsewIDBecwJYMJzMcI3FokJAxhU1F6bHcbcHJrP3J4tgcKX1vH5sx/0pF778sPIKfdQrOwT4bvHn7WU1BzgCnY9vJmL6RMEQebTBEUKvC4cc12jYmeltytbQV++1cl0nch+I6IuPA4MHJmKC9gOiRwgWn4OzMKU8QjxkzOJnzsr3QojhSnFBwPlZS+5HihN1HW+0Q8UuViAcZjkzSt7J74G6t2HolgKinOFtxsqamAUxwfcQaHRtpi9VSfcw60tIlGXmGRK8wuc+CC05TyysBiQY8UiOllMg0VvwZjl3T9i3juWsuXmxAwgeR4Cq3/n456XF4VKs5gLkyzU1r27tVsPYhsfPwlwqERbUK5Tc2NBbzln9breNefyTb0K6vPPatwcU/34Z3lxfd7/3hzd/Xvbxfjy9qeb5m/+Pz/P5j4iZLCcO7wfDzJs0t2MOCpJ0YZeMSdsoAZXuDI27vPxoKPiU=]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQoAAABkCAIAAADxIOkAAAACL0lEQVR4nO3YvU1bYQCGUYbIJNmAJZiAJgOwgSegpaBIixSJjp6Cmpoh2CDhx/zYvo9DjKMPzHl1qnvBsiU/+rjs/Taz2N7oN2D2cScPs5w8zHLyMMvJwywnD7OcPMxy8jDLycMs95c8vn3/AbtqC3lc39zC7pEHJHlAuvtu//x1KQ+YIA9I8hjj4ni2+k+Sw7OFu/vHN8Pf5xcnjzEm83guRB4fhDzGWA3g9OihkKOr4e+NZ/IYY+J8ODu5z+Pg/GLh7s3sYPmEWXv9/qXmpc2dnI7+sJ+XPMZYf3q8J4+JP9ucSJuSxxj//uzx3MPSaVDXH7w6kYZ/5M9IHmNM5TGbXS7cnThbVhqo6/MwHsljU/IYY/3/ppbuPjXw0s+a6wu/6/R4H3mM8fY8ns6Z5Tbi+tXhq4vzn5HHpuQxxpvzePy6rz5q1/WJR3Z5bEweY/y3PG6vL8/3Xx5mHmtZPnl4I3lAkgckeUCSByR5QJIHJHlA2k4esKucHjBNHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBSR6Q5AFJHpDkAUkekOQBaTt5wK56bx7Pu3sh2D3bycPsC04eZjl5mOXkYZaTh1lOHmY5eZjl5GGWk4dZTh5muT97F1hOaXNllgAAAABJRU5ErkJggg==]]></ATT>
+      <ATT name="JsStructure"><![CDATA[bcd2e1fa-a91f-460a-baa5-7454ed4d4444,Standard.Class,10,10,246,80]]></ATT>
+      <ATT name="Name"><![CDATA[DiagTP]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="Pizza" mc="Standard.Class" uid="bcd2e1fa-a91f-460a-baa5-7454ed4d4444"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="cd69ace1-8f03-4b0f-85d1-73e944919a77"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

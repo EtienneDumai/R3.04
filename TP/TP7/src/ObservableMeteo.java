@@ -11,14 +11,16 @@ public class ObservableMeteo {
         this.libelleObservable = libelleObservable;
     }
 
-    public void ajouterObservateur(ObservateurMeteo observateur) {
-        observateurs.add(observateur);
+    public boolean ajouterObservateur(ObservateurMeteo observateur) {
+        return observateurs.add(observateur);
     }
 
-    public void supprimerObservateur(ObservateurMeteo observateur) {
-        observateurs.remove(observateur);
+    public boolean supprimerObservateur(ObservateurMeteo observateur) {
+        return observateurs.remove(observateur);
     }
-
+    public boolean existeObservateur(ObservateurMeteo observateur) {
+        return observateurs.contains(observateur);
+    }
     public void notifierObservateurs() {
         for (ObservateurMeteo observateur : observateurs) {
             observateur.actualiser(this);

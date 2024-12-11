@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="decorateur" version="4">
+  <OBJECT>
+    <ID name="decorateur" mc="Standard.Package" uid="e3746228-1bfc-4398-87bd-575cef0eab36"/>
+    <PID name="Decorateur" mc="Standard.Project" uid="5787bc63-12b5-4dc6-8af8-8eedb8b88eb8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[decorateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DecorateurDeComposant" mc="Standard.Class" uid="c56440ab-1b6d-4ed7-9f69-9ea3052995d7"/>
+        <COMPID name="IComposant" mc="Standard.Class" uid="1aacae84-35fc-4035-bf88-d71c59de4d9e"/>
+        <COMPID name="ComposantDeBase" mc="Standard.Class" uid="cd90076c-f6c5-4c65-b8e9-e6878b0ab0ea"/>
+        <COMPID name="DécorateurA_DeComposant" mc="Standard.Class" uid="3ffdd06c-1695-4fab-95ef-7351eb193fa2"/>
+        <COMPID name="DecorateurB_DeComposant" mc="Standard.Class" uid="7a9c7ef9-dee7-4afc-be66-1d60f6499f8f"/>
+        <COMPID name="Pizza" mc="Standard.Class" uid="bcd2e1fa-a91f-460a-baa5-7454ed4d4444"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DiagCours" mc="Standard.ClassDiagram" uid="cd3b76d0-a0d7-46b1-ab15-4e3189667b04"/>
+        <COMPID name="DiagTP" mc="Standard.ClassDiagram" uid="2391e285-7eb0-4dea-a8d0-fcab39514855"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

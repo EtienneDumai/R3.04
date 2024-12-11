@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Decorateur" version="4">
+  <OBJECT>
+    <ID name="Decorateur" mc="Standard.Project" uid="5787bc63-12b5-4dc6-8af8-8eedb8b88eb8"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Decorateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="decorateur" mc="Standard.Package" uid="e3746228-1bfc-4398-87bd-575cef0eab36"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Decorateur" mc="Infrastructure.DiagramSet" uid="e1217e7e-87ad-4adf-b73a-e903116c4d47"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
